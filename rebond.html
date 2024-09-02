@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebound</title>
+    <link rel="stylesheet" type="text/css" href="rebond.css" />
+
+</head>
+
+<body>
+    <section class='cadre'>
+        <h1>Play Bille</h1>
+        <div class='ihm'>
+
+            <div class='ihm_range'>
+                <div class='lesCurseurs'>
+                    <div class='box1'></div>
+                    <div class='box2'></div>
+                    <div class='box3'></div>
+                </div>
+
+                <div class='ihm_button'>
+
+                    <input type='button' value='⏹︎' onclick='stopBtn()' />
+                    <input type='button' value='⏯︎' onclick='playBtn()' />
+                </div>
+                <!-- <p>
+                    <label>Billes</label>
+
+                    <input type='range' name='rangeBille' onchange='rangeValue(this);' onmousemove='rangeValueMove(this);' onmousedown='msDownRange(true);' onmouseup='msDownRange(false);' min="1" max="50" value="35" /><span>35</span>
+                </p>
+                <p>
+                    <label>Distance</label>
+                    <input type='range' name='rangeDistance' onchange='distanceBille(this);' onmousemove='distanceBilleMove(this);' onmousedown='msDownRange(true);' onmouseup='msDownRange(false);' min="1" max="200" value="80" /><span>80</span>
+                </p>
+                <p>
+                    <label>Vitesse</label>
+                    <input type='range' name='rangeVitesse' min="1" max="200" value="60" /><span>60</span>
+                </p> -->
+
+
+
+
+            </div>
+        </div>
+
+        <canvas id='canvas' width='400' height='400'></canvas>
+    </section>
+    <script src="rebond.js" type="text/javascript"></script>
+    <script src="../curseur/class.curseur.js" type="text/JavaScript"></script>
+
+</body>
+
+</html>
